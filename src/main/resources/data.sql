@@ -1,0 +1,2 @@
+INSERT INTO Device (devicename, version,maxinstances,platform,apppackage,appactivy,browser,isconnected) VALUES ('emulator-5554', '8.0',3,'ANDROID','com.android.chrome','org.chromium.chrome.browser.document.ChromeLauncherActivity','Chrome',true);
+COMMIT;
