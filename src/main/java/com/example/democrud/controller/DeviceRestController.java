@@ -64,6 +64,8 @@ public class DeviceRestController {
 		return new ResponseEntity<Device>(dev, HttpStatus.OK);
 	}
 	
+	//Get Device Valide si el Dispositivo Existe
+	
 	@PutMapping(value="/update/{id}")
 	public ResponseEntity<Device> update(@PathVariable Long id, @RequestBody Device dev){
 		Device toUpdate = deviceServiceAPI.get(id);
